@@ -845,6 +845,25 @@ img {
 .industry-page-grid article:hover {
   background: var(--paper);
 }
+.industry-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.industry-card-head svg {
+  width: 34px;
+  height: 34px;
+  fill: none;
+  stroke: var(--blue);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 0.3s ease, stroke 0.3s ease;
+}
+.industry-page-grid article:hover .industry-card-head svg {
+  transform: scale(1.08) rotate(-3deg);
+  stroke: var(--blue-deep);
+}
 .industry-page-grid h2 {
   margin-top: 43px;
   font-size: 18px;
