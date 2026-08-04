@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Corevolvix to start your business transformation conversation." />
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Contact Us | Corevolvix</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-content">
+        <a class="brand" href="index.html" aria-label="Corevolvix home"><img src="assets/corevolvix-wordmark-transparent.png" alt="Corevolvix" /></a>
+        <nav class="site-nav" id="primary-nav" aria-label="Primary navigation">
+          <a href="services.html">Services</a>
+          <a href="about.html">About Us</a>
+          <a href="industries.html">Industries</a>
+          <a aria-current="page" href="contact.html">Contact Us</a>
+        </nav>
+        <a class="header-cta" href="contact.html">Let’s talk <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M4 10h11M11 5l5 5-5 5" /></svg></a>
+        <button class="menu-toggle" aria-expanded="false" aria-label="Open navigation" aria-controls="primary-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="inner-hero">
+        <div class="container reveal">
+          <p class="section-tag">CONTACT US</p>
+          <h1>Start a conversation about what’s <span>next for your business.</span></h1>
+          <p>Tell us where you want to go. We’ll help you identify a practical path forward.</p>
+        </div>
+      </section>
+
+      <section class="page-section">
+        <div class="container contact-grid reveal">
+          <div>
+            <p class="section-tag">LET’S CONNECT</p>
+            <h2>Transformation begins with a clear conversation.</h2>
+            <p>Whether you are modernizing a process, planning an enterprise initiative or exploring AI, our team is ready to help.</p>
+            <a class="contact-email" href="mailto:hello@corevolvix.com">hello@corevolvix.com</a>
+          </div>
+          <form class="contact-form" action="mailto:hello@corevolvix.com" method="post" enctype="text/plain">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" autocomplete="name" required />
+            </div>
+            <div>
+              <label for="email">Work email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div>
+              <label for="company">Company</label>
+              <input id="company" name="company" autocomplete="organization" />
+            </div>
+            <div>
+              <label for="interest">Area of interest</label>
+              <select id="interest" name="interest">
+                <option>Business Process Consulting</option>
+                <option>SAP &amp; Enterprise Consulting</option>
+                <option>AI &amp; Intelligent Automation</option>
+                <option>Digital Transformation</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-wide">
+              <label for="message">How can we help?</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button class="button primary-button form-wide" type="submit">Send enquiry <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M4 10h11M11 5l5 5-5 5" /></svg></button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <a class="footer-brand" href="index.html"><img src="assets/corevolvix-wordmark-transparent.png" alt="Corevolvix" /></a>
+        <p>Business transformation through process, technology &amp; AI.</p>
+        <small>© <span id="year">2026</span> Corevolvix. All rights reserved.</small>
+      </div>
+    </footer>
+  </body>
+</html>
